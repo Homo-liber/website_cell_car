@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;   
+    font-family: sans-serif; 
+}
+
+
+img
+  {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  }  
+
+
+.header {
+    width: 100%;
+    height: 540px;
+    margin: 0 auto;
+    background: rgb(221,34,17);
+    background: linear-gradient(90deg, rgba(221,34,17,1) 0%, rgba(147,42,221,1) 60%, rgba(83,181,119,1) 100%);
+
+}
+
+.top {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 25%;
+    margin: 0px auto;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-right: 110px;
+    height: 60px;
+    font-size: 15pt;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.elements {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #FFF;    
+}
+
+.elements li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 12px;    
+}
+
+.elements li a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #130e27;
+    border-radius: 6px;
+}
+
+
+.sellyour {
+    margin: 0 190px;
+    padding: 0;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #130e27;
+}
+
+.carnow {
+    margin: 0 190px;
+    padding: 0;
+    margin-top: -20px;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.textheader {
+    margin: 15px 190px;
+    font-size: 13pt;
+    font-family: "PT Serif";
+    color: #FFF;
+    width: 40%;
+    line-height: 1.5;
+}
+
+
+.all_ourservices {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto ;
+    background-color: #FFF;
+}
+
+.ourservices_box {
+    width: 100%;
+    display: flex;
+    
+}
+
+.our {
+    margin-left: 190px;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c62314;
+}
+
+.services {
+    margin-left: 20px; /* it makes space between words "OUR" and "SERVICES" */
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #130e27;
+}
+
+
+.icons_box {
+    margin: 40px 190px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;    
+    
+}
+
+.icon_box_inner {
+    text-align: center;
+    height: 250px;   
+}
+
+
+.icon_text {
+    color: #130e27;
+    font-size: 13pt;
+    font-family: "PT Serif";
+    font-weight: 400;
+    width: 100%;
+}
+
+i.fa {
+    padding: 0;
+    margin-bottom: 40px;
+    font-size: 160px;
+    color: #130e27;
+}
+
+
+.our_story {
+    margin: 0 auto;
+    background-color: #000;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ourstory_text {
+    margin-left: 190px;
+    color: #FFF;
+    font-size: 13pt;
+    font-family: "PT Serif";
+    font-weight: 400;
+}
+
+.ourstory_button {
+    margin-right: 190px;
+    color: #FFF;
+    font-size: 23px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+    width: 22%;
+    height: 65px;
+    background-color: #c62314;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.pricing {
+    margin: 0 auto;
+    width: 100%;
+    height: 630px;
+    background-color: #efefef;
+}
+
+.pricing_word {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    color: #130e27;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.start_bus_prof {
+    margin: 0px 190px 50px 190px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.starter, .business, .professional {
+    padding-top: 20px;
+    background-color: #FFF;
+    width: 32%;
+    text-align: center;
+    color: #130e27;
+}
+
+.word {
+    font-size: 15pt;
+    margin-bottom: 20px;
+    font-family: "PT Serif";
+    font-weight: bold;
+    
+}
+
+.price {
+    margin-bottom: 10px;
+    font-size: 65px;
+    color: #c62314;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: bold;
+    
+}
+
+.text_star_bus_pro {
+    margin-bottom: 40px;
+    font-size: 15pt;
+    font-family: "PT Serif";
+    text-align: center;
+    color: #130e27;
+
+}
+
+.button_price {
+    margin: 0 auto;
+    font-size: 16pt;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #FFF;
+    width: 65%;
+    height: 50px;
+    background-color: #130e27;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.footer {
+    margin: 0 auto;
+    background-color: #130e27;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_text {
+    margin-left: 190px;
+    color: #FFF;
+    font-size: 15pt;
+    font-family: "PT Serif";
+}
+
+.footer_text_red {
+    color: #c62314;
+    font-size: 15pt;
+    font-family: "PT Serif";
+}
+
+.footer_logo {
+    margin-right: 190px;
+    width: 17%;
+}
+
+
+
+
