@@ -21,7 +21,6 @@ img
 
 .header {
     width: 100%;
-    height: 540px;
     margin: 0 auto;
     background: rgb(221,34,17);
     background: linear-gradient(90deg, rgba(221,34,17,1) 0%, rgba(147,42,221,1) 60%, rgba(83,181,119,1) 100%);
@@ -29,25 +28,14 @@ img
 }
 
 .top {
-    padding-top: 40px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.logo {
-    width: 25%;
-    margin: 0px auto;
+    align-items: center;
 }
 
 .menu {
-    margin-top: 30px;
-    margin-right: 110px;
-    height: 60px;
-    font-size: 15pt;  
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    font-size: 25pt;  
+    max-width: 50%;
 }
 
 .elements {
@@ -55,7 +43,7 @@ img
     margin: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     text-transform: uppercase;
     color: #FFF;    
 }
@@ -63,7 +51,7 @@ img
 .elements li a {
     text-decoration: none;
     color: #FFF;
-    padding: 10px 12px;    
+    padding: 12px 16px;    
 }
 
 .elements li a:hover {
@@ -73,11 +61,11 @@ img
     border-radius: 6px;
 }
 
-
 .sellyour {
-    margin: 0 190px;
+    margin-top: 90px;
+    margin-left: 190px;
     padding: 0;
-    font-size: 100px;
+    font-size: 120px;
     font-weight: bold;
     text-transform: uppercase;
     color: #130e27;
@@ -86,20 +74,22 @@ img
 .carnow {
     margin: 0 190px;
     padding: 0;
-    margin-top: -20px;
-    font-size: 100px;
+    margin-top: -30px;
+    font-size: 120px;
     font-weight: bold;
     text-transform: uppercase;
     color: #FFF;
 }
 
 .textheader {
-    margin: 15px 190px;
-    font-size: 13pt;
+    margin-top: 55px;
+    margin-left: 190px;
+    max-width: 650px;
+    font-size: 35px;
     font-family: "PT Serif";
     color: #FFF;
-    width: 40%;
     line-height: 1.5;
+    width: 40%;
 }
 
 
@@ -305,6 +295,382 @@ i.fa {
     width: 17%;
 }
 
+
+
+
+
+@media screen and (min-width: 1921px) {
+    .top {
+        justify-content: flex-start;
+    } 
+
+    .menu {
+        margin-top: 80px;
+        font-size: 24pt;  
+    }
+
+    .elements li a {
+        padding: 15px 16px;    
+    }
+    
+    .elements li a:hover {
+        border-radius: 8px;
+    }
+
+    .logo {
+        width: 25%;
+        margin-top: 80px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    .sellyour {
+        margin: 80px 230px 20px;
+        font-size: 120px; 
+    }
+    
+    .carnow {
+        margin: 0 0 0 230px;
+        margin-top: -30px;
+        font-size: 120px;
+    }
+    
+    .textheader {
+        margin-top: 35px;
+        margin-left: 230px;
+        padding-bottom: 230px;
+        font-size: 20pt;  
+        width: 40%;      
+    }    
+}
+ 
+@media (min-width: 1537px) and (max-width: 1920px) {  
+    .top {
+        justify-content: flex-start;
+    } 
+
+    .menu {
+        margin-top: 60px;
+        /* margin-right: 90px; */
+        font-size: 24pt;  
+    }
+
+    .elements li a {
+        padding: 15px 16px;    
+    }
+    
+    .elements li a:hover {
+        border-radius: 8px;
+    }
+
+    .logo {
+        width: 25%;
+        margin-top: 50px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    .sellyour {
+        margin: 50px 230px 20px;
+        font-size: 120px; 
+    }
+    
+    .carnow {
+        margin: 0 0 0 230px;
+        margin-top: -30px;
+        font-size: 120px;
+    }
+    
+    .textheader {
+        margin-top: 35px;
+        margin-left: 230px;
+        padding-bottom: 230px;
+        font-size: 20pt;  
+        width: 40%;      
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1536px) {
+    .top {
+        justify-content: flex-start;
+    }
+
+    .menu {
+        margin-top: 60px;
+        font-size: 22pt;  
+    }
+
+    .elements li a {
+        padding: 14px 14px;    
+    }
+    
+    .elements li a:hover {
+        border-radius: 7px;
+    }
+
+    .logo {
+        width: 22%;
+        margin-top: 45px;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .sellyour {
+        margin: 50px 210px 20px;
+        font-size: 110px; 
+    }
+    
+    .carnow {
+        margin: 0 0 0 210px;
+        margin-top: -30px;
+        font-size: 110px;
+    }
+    
+    .textheader {
+        margin-top: 35px;
+        margin-left: 210px;
+        padding-bottom: 210px;
+        font-size: 18pt; 
+        width: 40%;       
+    }
+}
+
+
+@media (min-width: 993px) and (max-width: 1280px) {
+    .top {
+        justify-content: flex-start;
+    }
+
+    .logo {
+        width: 22%;
+        margin-top: 45px;
+        margin-left: 90px;
+        margin-right: 90px;
+    }    
+
+    .menu {
+        margin-top: 30px;
+        margin-right: 110px;
+        font-size: 15pt;  
+    }
+    
+    .elements li a {
+        padding: 10px 12px;    
+    }
+    
+    .elements li a:hover {
+        border-radius: 6px;
+    }
+        
+    .sellyour {
+        margin-left: 160px;
+        padding: 0;
+        font-size: 80px;
+    }
+    
+    .carnow {
+        margin: 0 160px;
+        padding: 0;
+        margin-top: -20px;
+        font-size: 80px;
+    }
+    
+    .textheader {
+        margin-left: 160px;
+        margin-top: 15px;
+        padding-bottom: 170px;
+        font-size: 13pt;
+        width: 40%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .top {
+        justify-content: flex-start;
+    }
+
+    .logo {
+        width: 22%;
+        margin-top: 45px;
+        margin-left: 90px;
+        margin-right: 90px;
+    }    
+
+    .menu {
+        margin-top: 30px;
+        margin-right: 110px;
+        font-size: 12pt;  
+    }
+    
+    .elements li a {
+        padding: 9px 10px;    
+    }
+    
+    .elements li a:hover {
+        border-radius: 5px;
+    }
+        
+    .sellyour {
+        margin-left: 140px;
+        padding: 0;
+        font-size: 65px;
+    }
+    
+    .carnow {
+        margin: 0 140px;
+        padding: 0;
+        margin-top: -17px;
+        font-size: 65px;
+    }
+    
+    .textheader {
+        margin-left: 140px;
+        margin-top: 15px;
+        padding-bottom: 140px;
+        font-size: 10pt;
+        width: 40%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px)  {
+    .top {
+        justify-content: flex-start;
+    }
+
+    .logo {
+        width: 20%;
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-right: 25px;
+    }    
+
+    .menu {
+        margin-top: 30px;
+        font-size: 10pt;
+    }
+    
+    .elements li a {
+        padding: 7px 8px;    
+    }
+    
+    .elements li a:hover {
+        border-radius: 4px;
+    }
+        
+    .sellyour {
+        margin-top: 70px;
+        margin-left: 110px;
+        font-size: 50px;
+    }
+    
+    .carnow {
+        margin: 0 110px;
+        padding: 0;
+        margin-top: -13px;
+        font-size: 50px;
+    }
+    
+    .textheader {
+        margin-left: 110px;
+        margin-top: 15px;
+        padding-bottom: 110px;
+        font-size: 8pt;
+        width: 40%;
+    }
+}
+
+@media (min-width: 377px) and (max-width: 576px)  {
+    .top {
+        justify-content: flex-start;
+    }
+
+    .logo {
+        width: 20%;
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }    
+
+    .menu {
+        margin-top: 30px;
+        margin-right: 10px;
+        font-size: 6pt;
+    }
+    
+    .elements li a {
+        padding: 5px 4px;    
+    }
+    
+    .elements li a:hover {
+        border-radius: 3px;
+    }
+        
+    .sellyour {
+        margin-top: 50px;
+        margin-left: 90px;
+        font-size: 35px;
+    }
+    
+    .carnow {
+        margin: 0 90px;
+        margin-top: -9px;
+        font-size: 35px;
+    }
+    
+    .textheader {
+        margin-left: 90px;
+        margin-top: 15px;
+        padding-bottom: 70px;
+        font-size: 6pt;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 376px)  {
+    .top {
+        justify-content: flex-start;
+    }
+
+    .logo {
+        width: 22%;
+        margin-top: 25px;
+        margin-left: 30px;
+        margin-right: 15px;
+    }    
+
+    .menu {
+        margin-top: 20px;
+        font-size: 4pt;
+    }
+    
+    .elements li a {
+        padding: 4px 3px;    
+    }
+    
+    .elements li a:hover {
+        border-radius: 1px;
+    }
+        
+    .sellyour {
+        margin-top: 40px;
+        margin-left: 60px;
+        font-size: 22px;
+    }
+    
+    .carnow {
+        margin: 0 60px;
+        margin-top: -5px;
+        font-size: 22px;
+    }
+    
+    .textheader {
+        margin-left: 60px;
+        margin-top: 15px;
+        padding-bottom: 50px;
+        font-size: 4pt;
+        width: 40%;
+    }
+}
 
 
 
