@@ -298,6 +298,11 @@ i.fa {
 
 
 
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* Block "Header" */
 
 @media screen and (min-width: 1921px) {
     .top {
@@ -672,5 +677,471 @@ i.fa {
     }
 }
 
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* Blocks "Our Services" + "Story" */
+
+@media screen and (min-width: 1921px) {
+    .our {
+        margin-left: 230px;
+        margin-top: 75px;
+        font-size: 60px;
+    }
+    
+    .services {
+        margin-left: 20px; /* space between words "OUR" and "SERVICES" */
+        margin-top: 75px;
+        font-size: 60px;
+    }
+        
+    .icons_box {
+        margin: 100px 230px 200px 230px;
+    }
+
+    .icon_box_inner {
+        padding: 0 20px;
+    }
+    
+    i.fa {
+        padding: 0;
+        margin-bottom: 40px;
+        font-size: 215px;
+    }
+
+    .icon_text {
+        margin-top: 30px;
+        font-size: 22pt;
+        width: 100%;
+    }
+
+    .our_story {
+        margin: 0 auto;
+        width: 100%;
+        padding: 45px 0;
+    }
+    
+    .ourstory_text {
+        margin-left: 230px;
+        font-size: 22pt;
+        padding: 15px;
+    }
+    
+    .ourstory_button {
+        margin-right: 230px;
+        margin-left: 40px;
+        font-size: 34px;
+        width: 24%;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+}
+
+@media (min-width: 1537px) and (max-width: 1920px) {    
+    .our {
+        margin-left: 230px;
+        margin-top: 60px;
+        font-size: 60px;
+    }
+    
+    .services {
+        margin-left: 20px; /* space between words "OUR" and "SERVICES" */
+        margin-top: 60px;
+        font-size: 60px;
+    }
+        
+    .icons_box {
+        margin: 100px 230px;
+    }
+
+    .icon_box_inner {
+        padding: 0 20px;
+    }
+    
+    i.fa {
+        padding: 0;
+        margin-bottom: 40px;
+        font-size: 200px;
+    }
+
+    .icon_text {
+        margin-top: 30px;
+        font-size: 21pt;
+        width: 100%;
+    }
+
+    .our_story {
+        margin: 0 auto;
+        width: 100%;
+        padding: 45px 0;
+    }
+    
+    .ourstory_text {
+        margin-left: 230px;
+        font-size: 21pt;
+        padding: 15px;
+    }
+    
+    .ourstory_button {
+        margin-right: 230px;
+        margin-left: 40px;
+        padding: 20px;
+        font-size: 30px;
+        width: 24%;
+        border-radius: 8px;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1536px) {
+    .our {
+        margin-left: 210px;
+        margin-top: 60px;
+        font-size: 60px;
+    }
+    
+    .services {
+        margin-left: 20px; /* space between words "OUR" and "SERVICES" */
+        margin-top: 60px;
+        font-size: 60px;
+    }
+        
+    .icons_box {
+        margin: 100px 210px;
+        margin-bottom: 140px;
+    }
+
+    .icon_box_inner {
+        padding: 0 0px;
+        margin-right: 10px;
+    }
+
+    .icon_box_inner:last-child{
+        margin-right: 0px;
+    }
+    
+    i.fa {
+        padding: 0;
+        font-size: 170px;
+    }
+
+    .icon_text {
+        margin-top: 30px;
+        font-size: 19pt;
+        width: 100%;
+    }
+
+    .our_story {
+        margin: 0 auto;
+        width: 100%;
+        padding: 45px 0;
+    }
+    
+    .ourstory_text {
+        margin-left: 210px;
+        font-size: 19pt;
+    }
+    
+    .ourstory_button {
+        margin-right: 210px;
+        margin-left: 40px;
+        padding: 17px;
+        font-size: 28px;
+        width: 24%;
+        border-radius: 7px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1280px) {  
+    .our {
+        margin-left: 160px;
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    
+    .services {
+        margin-left: 20px; /* space between words "OUR" and "SERVICES" */
+        margin-top: 50px;
+        font-size: 50px;
+    }
+        
+    .icons_box {
+        margin: 60px 160px 70px 160px;
+    }
+
+    .icon_box_inner {
+        padding: 0 0px;
+        margin-right: 10px;
+    }
+
+    .icon_box_inner:last-child{
+        margin-right: 0px;
+    }
+    
+    i.fa {
+        padding: 0;
+        font-size: 150px;
+    }
+
+    .icon_text {
+        margin-top: 20px;
+        font-size: 16pt;
+        width: 100%;
+    }
+
+    .our_story {
+        margin: 0 auto;
+        width: 100%;
+        padding: 45px 0;
+    }
+    
+    .ourstory_text {
+        margin-left: 160px;
+        font-size: 16pt;
+    }
+    
+    .ourstory_button {
+        margin-right: 160px;
+        margin-left: 40px;
+        padding: 17px;
+        font-size: 26px;
+        width: 24%;
+        border-radius: 6px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .our {
+        margin-left: 140px;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    
+    .services {
+        margin-left: 20px; /* space between words "OUR" and "SERVICES" */
+        margin-top: 40px;
+        font-size: 40px;
+    }
+        
+    .icons_box {
+        margin: 50px 140px 60px 140px;
+    }
+
+    .icon_box_inner {
+        padding: 0 0px;
+        margin-right: 10px;
+    }
+
+    .icon_box_inner:last-child{
+        margin-right: 0px;
+    }
+    
+    i.fa {
+        padding: 0;
+        font-size: 120px;
+    }
+
+    .icon_text {
+        margin-top: -10px;
+        font-size: 14pt;
+        width: 100%;
+    }
+
+    .our_story {
+        margin: 0 auto;
+        width: 100%;
+        padding: 35px 0;
+    }
+    
+    .ourstory_text {
+        margin-left: 140px;
+        font-size: 14pt;
+    }
+    
+    .ourstory_button {
+        margin-right: 140px;
+        margin-left: 40px;
+        padding: 15px;
+        font-size: 21px;
+        width: 24%;
+        border-radius: 5px;
+    }    
+}
+
+@media (min-width:577px ) and (max-width: 768px) {
+    .our {
+        margin-left: 110px;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    
+    .services {
+        margin-left: 10px; /* space between words "OUR" and "SERVICES" */
+        margin-top: 30px;
+        font-size: 30px;
+    }
+        
+    .icons_box {
+        margin: 35px 110px 50px 110px;
+    }
+
+    .icon_box_inner {
+        padding: 0 0px;
+        margin-right: 10px;
+    }
+
+    .icon_box_inner:last-child{
+        margin-right: 0px;
+    }
+    
+    i.fa {
+        padding: 0;
+        font-size: 100px;
+    }
+
+    .icon_text {
+        margin-top: -10px;
+        font-size: 11pt;
+        width: 100%;
+    }
+
+    .our_story {
+        margin: 0 auto;
+        width: 100%;
+        padding: 25px 0;
+    }
+    
+    .ourstory_text {
+        margin-left: 110px;
+        font-size: 11pt;
+    }
+    
+    .ourstory_button {
+        margin-right: 110px;
+        margin-left: 25px;
+        padding: 15px;
+        font-size: 15px;
+        width: 24%;
+        border-radius: 4px;
+    }   
+}
+
+@media (min-width:377px ) and (max-width: 576px) {
+    .our {
+        margin-left: 90px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    
+    .services {
+        margin-left: 10px; /* space between words "OUR" and "SERVICES" */
+        margin-top: 25px;
+        font-size: 25px;
+    }
+        
+    .icons_box {
+        margin: 35px 90px 30px 90px;
+    }
+
+    .icon_box_inner {
+        padding: 0 0px;
+        margin-right: 10px;
+    }
+
+    .icon_box_inner:last-child{
+        margin-right: 0px;
+    }
+    
+    i.fa {
+        padding: 0;
+        font-size: 70px;
+    }
+
+    .icon_text {
+        margin-top: -25px;
+        font-size: 7pt;
+        width: 100%;
+    }
+
+    .our_story {
+        margin: 0 auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    .ourstory_text {
+        margin-left: 90px;
+        font-size: 7pt;
+    }
+    
+    .ourstory_button {
+        margin-right: 90px;
+        margin-left: 25px;
+        padding: 13px;
+        font-size: 10px;
+        padding: 10px;
+        width: 24%;
+        border-radius: 4px;
+    }   
+}
+
+@media screen and (max-width: 376px) {
+    .our {
+        margin-left: 60px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    
+    .services {
+        margin-left: 4px; /* space between words "OUR" and "SERVICES" */
+        margin-top: 15px;
+        font-size: 15px;
+    }
+        
+    .icons_box {
+        margin: 15px 60px 20px 60px;
+    }
+
+    .icon_box_inner {
+        padding: 0 0px;
+        margin-right: 10px;
+    }
+
+    .icon_box_inner:last-child{
+        margin-right: 0px;
+    }
+    
+    i.fa {
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .icon_text {
+        margin-top: -30px;
+        font-size: 5pt;
+        width: 100%;
+    }
+
+    .our_story {
+        margin: 0 auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    .ourstory_text {
+        margin-left: 60px;
+        font-size: 5pt;
+    }
+    
+    .ourstory_button {
+        margin-right: 60px;
+        margin-left: 25px;
+        font-size: 7px;
+        padding: 7px;
+        width: 24%;
+        border-radius: 4px;
+    }   
+}
 
 
