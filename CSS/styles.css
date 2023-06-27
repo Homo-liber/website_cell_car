@@ -1128,4 +1128,475 @@ i.fa {
     }   
 }
 
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* =================================================================================================================  */
+/* Blocks "Pricing" + "Footer" */
+
+@media screen and (min-width: 1921px) {
+    .pricing_word {
+        padding-top: 70px;
+        margin-bottom: 70px;
+        font-size: 60px;
+    }
+    
+    .start_bus_prof {
+        margin: 0px 230px 0px 230px;
+    }
+    
+    .starter, .business, .professional {
+        padding-bottom: 23px;
+        margin-bottom: 140px;
+        width: 32%;
+    }
+    
+    .word {
+        font-size: 24pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .price {
+        margin-bottom: 20px;
+        font-size: 85px;
+    }
+    
+    .text_star_bus_pro {
+        margin-bottom: 45px;
+        font-size: 22pt;
+    }
+    
+    .button_price {
+        padding: 40px 0;
+        font-size: 34px;
+        width: 65%;
+        border-radius: 8px;
+    }
+    
+    .footer_text {
+        margin-left: 230px;
+        font-size: 22pt;
+    }
+    
+    .footer_text_red {
+        font-size: 22pt;
+    }
+    
+    .footer_logo {
+        margin: 60px 230px 60px 20px;
+        width: 17%;
+    }
+}
+
+@media (min-width: 1537px) and (max-width: 1920px) {
+    .pricing_word {
+        padding-top: 70px;
+        margin-bottom: 70px;
+        font-size: 60px;
+    }
+    
+    .start_bus_prof {
+        margin: 0px 230px 0px 230px;
+    }
+    
+    .starter, .business, .professional {
+        padding-bottom: 23px;
+        margin-bottom: 140px;
+        width: 32%;
+    }
+    
+    .word {
+        font-size: 23pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .price {
+        margin-bottom: 20px;
+        font-size: 75px;
+    }
+    
+    .text_star_bus_pro {
+        margin-bottom: 45px;
+        font-size: 21pt;
+    }
+    
+    .button_price {
+        padding: 40px 0;
+        font-size: 30px;
+        width: 65%;
+        border-radius: 8px;
+    }
+    
+    .footer_text {
+        margin-left: 230px;
+        font-size: 21pt;
+    }
+    
+    .footer_text_red {
+        font-size: 21pt;
+    }
+    
+    .footer_logo {
+        margin: 60px 230px 60px 20px;
+        width: 17%;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1536px) {
+    .pricing_word {
+        padding-top: 70px;
+        margin-bottom: 70px;
+        font-size: 60px;
+    }
+    
+    .start_bus_prof {
+        margin: 0px 210px 0px 210px;
+    }
+    
+    .starter, .business, .professional {
+        padding-bottom: 23px;
+        margin-bottom: 140px;
+        width: 32%;
+    }
+    
+    .word {
+        font-size: 21pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .price {
+        margin-bottom: 20px;
+        font-size: 70px;
+    }
+    
+    .text_star_bus_pro {
+        margin-bottom: 45px;
+        font-size: 19pt;
+    }
+    
+    .button_price {
+        padding: 30px 0;
+        font-size: 28px;
+        width: 65%;
+        border-radius: 7px;
+    }
+    
+    .footer_text {
+        margin-left: 210px;
+        font-size: 19pt;
+    }
+    
+    .footer_text_red {
+        font-size: 19pt;
+    }
+    
+    .footer_logo {
+        margin: 60px 210px 60px 20px;
+        width: 17%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1280px) {
+    .pricing_word {
+        padding-top: 60px;
+        margin-bottom: 60px;
+        font-size: 50px;
+    }
+    
+    .start_bus_prof {
+        margin: 0px 160px 0px 160px;
+    }
+    
+    .starter, .business, .professional {
+        padding-bottom: 23px;
+        margin-bottom: 140px;
+        width: 32%;
+    }
+    
+    .word {
+        font-size: 19pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .price {
+        margin-bottom: 20px;
+        font-size: 65px;
+    }
+    
+    .text_star_bus_pro {
+        margin-bottom: 45px;
+        font-size: 16pt;
+    }
+    
+    .button_price {
+        padding: 30px 0;
+        font-size: 26px;
+        width: 65%;
+        border-radius: 6px;
+    }
+    
+    .footer_text {
+        margin-left: 160px;
+        font-size: 16pt;
+    }
+    
+    .footer_text_red {
+        font-size: 16pt;
+    }
+    
+    .footer_logo {
+        margin: 50px 160px 50px 20px;
+        width: 17%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .pricing_word {
+        padding-top: 45px;
+        margin-bottom: 45px;
+        font-size: 40px;
+    }
+    
+    .start_bus_prof {
+        margin: 0px 140px 0px 140px;
+    }
+    
+    .starter, .business, .professional {
+        padding-bottom: 16px;
+        margin-bottom: 80px;
+        width: 32%;
+        position: relative;
+    }
+    
+    .word {
+        font-size: 16pt;
+        margin-top: 18px;
+        margin-bottom: 25px;
+    }
+    
+    .price {
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    
+    .text_star_bus_pro {
+        margin-bottom: 70px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14pt;
+    }
+    
+    .button_price {
+        padding: 26px 0px;
+        font-size: 21px;
+        width: 64%;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 12px;
+        left: 18%
+    }
+    
+    .footer_text {
+        margin-left: 140px;
+        font-size: 14pt;
+    }
+    
+    .footer_text_red {
+        font-size: 14pt;
+    }
+    
+    .footer_logo {
+        margin: 45px 140px 45px 20px;
+        width: 17%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .pricing_word {
+        padding-top: 35px;
+        margin-bottom: 35px;
+        font-size: 30px;
+    }
+    
+    .start_bus_prof {
+        margin: 0px 110px 0px 110px;
+    }
+    
+    .starter, .business, .professional {
+        padding-bottom: 14px;
+        margin-bottom: 80px;
+        width: 32%;
+        position: relative;
+    }
+    
+    .word {
+        font-size: 14pt;
+        margin-top: 18px;
+        margin-bottom: 25px;
+    }
+    
+    .price {
+        margin-bottom: 16px;
+        font-size: 40px;
+    }
+    
+    .text_star_bus_pro {
+        margin-bottom: 70px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 11pt;
+    }
+    
+    .button_price {
+        padding: 17px 0px;
+        font-size: 15px;
+        width: 64%;
+        border-radius: 4px;
+        position: absolute;
+        bottom: 12px;
+        left: 18%
+    }
+    
+    .footer_text {
+        margin-left: 110px;
+        font-size: 11pt;
+    }
+    
+    .footer_text_red {
+        font-size: 11pt;
+    }
+    
+    .footer_logo {
+        margin: 40px 110px 40px 15px;
+        width: 17%;
+    }
+}
+
+@media (min-width: 377px) and (max-width: 576px) {
+    .pricing_word {
+        padding-top: 25px;
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    
+    .start_bus_prof {
+        margin: 0px 90px 0px 90px;
+    }
+    
+    .starter, .business, .professional {
+        padding-bottom: 14px;
+        margin-bottom: 80px;
+        width: 32%;
+        position: relative;
+    }
+    
+    .word {
+        font-size: 11pt;
+        margin-top: 12px;
+        margin-bottom: 18px;
+    }
+    
+    .price {
+        margin-bottom: 16px;
+        font-size: 30px;
+    }
+    
+    .text_star_bus_pro {
+        margin-bottom: 70px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 7pt;
+    }
+    
+    .button_price {
+        padding: 5px;
+        height: 35px;
+        font-size: 10px;
+        width: 64%;
+        border-radius: 4px;
+        position: absolute;
+        bottom: 8px;
+        left: 18%
+    }
+    
+    .footer_text {
+        margin-left: 90px;
+        font-size: 7pt;
+    }
+    
+    .footer_text_red {
+        font-size: 7pt;
+    }
+    
+    .footer_logo {
+        margin: 30px 90px 30px 10px;
+        width: 17%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .pricing_word {
+        padding-top: 15px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    
+    .start_bus_prof {
+        margin: 0px 60px 0px 60px;
+    }
+    
+    .starter, .business, .professional {
+        padding-bottom: 14px;
+        margin-bottom: 20px;
+        width: 32%;
+        position: relative;
+    }
+    
+    .word {
+        margin-top: -10px;
+        font-size: 7pt;
+        margin-bottom: 8px;
+    }
+    
+    .price {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .text_star_bus_pro {
+        margin-bottom: 35px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 5pt;
+    }
+    
+    .button_price {
+        height: 35px;
+        font-size: 7px;
+        width: 64%;
+        border-radius: 4px;
+        position: absolute;
+        bottom: 8px;
+        left: 18%
+    }
+    
+    .footer_text {
+        margin-left: 60px;
+        font-size: 5pt;
+    }
+    
+    .footer_text_red {
+        font-size: 5pt;
+    }
+    
+    .footer_logo {
+        margin: 20px 60px 20px 3px;
+        width: 17%;
+    }
+}
+
 
